@@ -1,0 +1,471 @@
+html, body{
+    background-color: #ffffff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Styles For Headers */
+
+header{
+    background-color: black;
+    position: sticky;
+    top: 0; 
+    z-index: 10;
+}
+
+.navi-section{
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo{
+    padding-left: 5rem;
+}
+
+.side-text{
+    margin-right: 2rem;
+} 
+
+.nav-icon i{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
+
+
+/* Style for Education Part */
+
+.ed-res-sec{
+    background-image: url(../images/bg_image_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.ed-res-hea{
+    font-weight: 500;
+    font-size: 3rem;
+    padding-top: 8rem;
+    text-align: center;
+
+}
+
+.ed-res-sec-text-1{
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 7.5rem;
+}
+
+.ed-res-sec-text-2{
+    font-size: 1rem;
+    color: #fc0;
+    margin: 0 1rem;
+}
+
+.ed-res-sec-text-3{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.ed-res-sec-link{
+    text-decoration: none;
+    color: white;
+    transition:border 0.5s ease;
+}
+
+.ed-res-sec-link:hover{
+    border-bottom: 1px solid #fc0;
+}
+
+.ed-res-sec-link span{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Our Approch Section */
+
+.ed-res-appro{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.ed-res-appro span{
+    line-height: 4.5rem;
+    font-weight: 400;
+    color: #575757;
+    font-size: 1rem;
+    
+}
+
+.ed-res-appro h2{
+    color: black;
+    font-weight: 700;
+    font-size: 3.3rem;
+    margin-bottom: 1.7rem;
+}
+
+.ed-res-appro-par-1{
+    color: black;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 1.7rem;
+}
+
+.ed-res-appro-par-2{
+    color: #575757;
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-bottom: 4.5rem;
+    line-height: 1.3rem;
+    padding: 0rem 10.5rem;
+}
+
+/* Our Learning Framework Section */
+
+.ed-res-lea{
+    display: flex;
+    background-color: #F1EEE9;
+    margin: 0 1.5rem 4rem;
+    padding: 0.7rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.ed-res-lea-img{
+    /* width: 80rem; */
+    width: 100%;
+}
+
+.ed-res-lea-text{
+    padding: 0 1rem;
+}
+
+.ed-res-lea-text h3{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1.3rem;
+}
+
+.ed-res-lea-text p{
+    color: #575757;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    margin-bottom: 1.3rem;
+}
+
+.ed-res-lea-text a{
+    color: black;
+    letter-spacing: 0.15rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid #bbb7b7;
+    text-decoration: none;
+    transition:border 0.5s ease;
+}
+
+.ed-res-lea-text a span{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.ed-res-lea-text a:hover{
+    border-bottom: 2px solid #fc0;
+}
+
+
+/* Engaging Resources */
+
+.ed-en-res-sec h5{
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    color: #575757;
+    font-weight: 500;
+    margin-bottom: 1.3rem;
+}
+
+.ed-en-res-sec h1{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.en-res-gri{
+    padding: 0rem 1rem 0rem 1rem; 
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* align-items: center;
+    justify-items: center; */
+}
+
+.en-res-gri-item-1, .en-res-gri-item-2, .en-res-gri-item-3,
+.en-res-gri-item-4, .en-res-gri-item-5, .en-res-gri-item-6{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.en-res-gri-hea{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 2.7rem 0rem;
+}
+
+.en-res-gri-par{
+    text-align: center;
+    color: #575757;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    padding: 0rem 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.en-res-gri-link{
+    color: black;
+    letter-spacing: 0.15rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid #bbb7b7;
+    margin-bottom: 10rem;
+    text-decoration: none;
+    transition:border 0.5s ease;
+}
+
+.en-res-gri-link span{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.en-res-gri-link:hover{
+    border-bottom: 2px solid #fc0;
+}
+
+/* Explorer Classroom */
+.ed-res-exp-sec{
+    margin-bottom: 4.5rem;
+}
+
+.ed-res-exp-bg-img{
+    background-image: url(../images/bg_image_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.ed-res-exp-bg-img h5{
+    font-size: 1rem;
+    padding: 5rem 2rem 2rem 8.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.ed-res-exp-bg-img h2{
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 0rem 2rem 2rem 8.5rem;
+}
+
+.ed-res-exp-bg-img p{
+    width: 60%;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    padding: 0rem 6rem 0.6rem 8.5rem;
+}
+
+.ed-res-exp-btn{
+    background-color: #fc0;
+    border: none;
+    color: black;
+    padding: 1rem 2.5rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0rem 0rem 4.5rem 8rem;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+.ed-res-exp-btn:hover{
+    background-color: rgb(209, 169, 9);
+}
+
+/* Footer Section */
+
+.ed-res-foot-text-1 p {
+    color: #575757;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    padding: 0rem 8.2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.ed-res-foot-text-1 p span{
+    font-weight: 800;
+}
+
+.ed-res-foot-img{
+    /* text-align: center; */
+    background-image: url(../images/footer_img_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+    height: 15rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.ed-res-foot-img h3{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    padding: 4rem 0rem 2.5rem 0rem;
+}
+
+.ed-res-foot-img h3 span{
+    color: #fc0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.ed-res-foot-img p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 0rem;
+}
+
+.ed-res-foot-img p span{
+    font-weight: 700;
+}
+
+.ed-res-foot-end{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    /* padding: 8rem 14rem 2rem 14rem; */
+    background-color: #292929;
+    margin-top: -130px;
+    padding-bottom: 6rem;
+}
+
+.ed-res-foot-end-img{
+    margin: 10rem 0rem 0rem 14rem;
+    width: 50%;
+}
+
+.ed-res-foot-end-img img{
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+    height: 9rem;
+    width: 10rem;
+}
+
+.ed-res-foot-text-2{
+    margin-top: 10rem;
+}
+
+.ed-res-foot-para-1{
+    color: #B7B7B7;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1rem 0rem;
+    line-height: 1.7rem;
+}
+
+.ed-res-foot-text-2 h6{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+
+.ed-res-foot-para-2{
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    padding-right: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.ed-res-foot-text-2 a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    border-bottom: 2px solid #fc0;
+    transition: color 1s ease;
+}
+
+.ed-res-foot-text-2 a:hover{
+    color: #B7B7B7;
+}
+
+.ed-res-foot-para-3{
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+    letter-spacing: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.ed-res-foot-icon{
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+    color: white;
+    transition: color 1s ease;
+    cursor: pointer;
+}
+
+.ed-res-foot-icon:hover{
+    color: #fc0;
+}
+
+
+/* Footer End Section */
+
+.footer-end-section{
+    background-color: #0f0f0f;
+    padding: 3rem 1.5rem;
+}
+
+.footer-end-section-link{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-bottom: 1px solid #fc0;
+    transition: color 1s ease;
+}
+
+.footer-end-section-link:hover{
+    color: #B7B7B7;
+}
+
+.footer-end-section-seprater{
+    color: #B7B7B7;
+    padding: 0rem 0.2rem;
+}
+
+.footer-end-section p{
+    color: #B7B7B7;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
